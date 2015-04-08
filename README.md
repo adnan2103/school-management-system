@@ -1,0 +1,1 @@
+# global-school-management-system
