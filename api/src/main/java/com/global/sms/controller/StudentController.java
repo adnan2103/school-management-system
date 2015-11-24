@@ -33,7 +33,7 @@ public class StudentController {
         return studentService.save(student);
     }
 
-    @RequestMapping(value = "/{id}" , method = RequestMethod.GET)
+    @RequestMapping(value = "/{id}" , method = RequestMethod.GET, produces = "application/json")
     public Student get( @PathVariable("id") Long id){
         System.out.println("Id is "+id);
         return studentService.get(id);
