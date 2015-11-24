@@ -7,4 +7,4 @@
 |  $$$$$$|  $$$$$$| $$ \/  | $|  $$$$$$/
  \______/ \______/|__/     |__/\______/
 
-
+${Ansi.RED} :: School Management System API Version :: ${Ansi.YELLOW} ${spring-boot.version}
