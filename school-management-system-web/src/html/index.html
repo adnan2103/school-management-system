@@ -1,15 +1,15 @@
 <!doctype html>
-<html ng-app>
+<html ng-app="SchoolManagementSystem" ng-controller="loginController">
 <head>
     <title>Hello AngularJS</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
-    <script src="../js/student.js"></script>
+    <script src="../js/SchoolManagementSystem.js"></script>
+    <script src="../js/loginController.js"></script>
+
 </head>
 
 <body>
-<div ng-controller="Student">
-    <p>The ID is {{welcome.id}}</p>
-    <p>First Name is {{welcome.firstName}}</p>
-</div>
+    <p>The ID is {{welcome}}</p>
+    <p>First Name is {{welcome}}</p>
 </body>
 </html>
